@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 241, 228);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#perfume{
+    width: 16vw;
+    height: 52vh;
+    border-radius: 10px 0px 0px 10px;
+}
+.informacoes {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    width: 15vw;
+    height: 52vh;
+    padding: 15px 15px 15px 30px;
+}
+.informacoes h6{
+    color:  #857f7f;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+.informacoes #nome-do-perfume{
+    width: 190px;
+    font-size: 35px;
+}
+.informacoes #descricao{
+    width: 210px;
+    color: #464040;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.valores{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+.valores #preco-atual{
+    color: #398b52;;
+    width: 125px;
+}
+.valores #preco-anterior{
+    color: #857f7f;
+    padding: 15px;
+    
+}
+.add-ao-carrinho{
+    background-color: #398b52;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.add-ao-carrinho:hover {
+    background-color:  #295035;
+}
